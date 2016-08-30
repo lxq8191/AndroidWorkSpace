@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_view_bkg" >
+ 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dip"
+        android:src="@drawable/intro_left_view"
+        android:contentDescription="@null" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dip"
+        android:src="@drawable/intro_right_down"
+        android:contentDescription="@null" />
+    
+    <TextView
+        android:id="@+id/intro_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+    
+    <ImageView
+        android:layout_above="@id/intro_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:src="@drawable/ic_launcher"
+        android:contentDescription="@null" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="8dip"
+        android:gravity="center"
+        android:text="@string/str_menu_intro_left_hint"
+        android:textColor="@android:color/black" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dip"
+        android:gravity="center"
+        android:text="@string/str_menu_intro_right_hint"
+        android:textColor="@android:color/black" />
+</RelativeLayout>

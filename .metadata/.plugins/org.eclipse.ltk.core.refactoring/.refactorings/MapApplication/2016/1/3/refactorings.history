@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 6 elements from project &apos;MapApplication&apos;&#x0D;&#x0A;- Original project: &apos;MapApplication&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     baidumapapi_base_v3_6_1.jar&#x0D;&#x0A;     baidumapapi_cloud_v3_6_1.jar&#x0D;&#x0A;     baidumapapi_map_v3_6_1.jar&#x0D;&#x0A;     baidumapapi_radar_v3_6_1.jar&#x0D;&#x0A;     baidumapapi_search_v3_6_1.jar&#x0D;&#x0A;     baidumapapi_util_v3_6_1.jar" description="Delete elements" element1="libs/baidumapapi_base_v3_6_1.jar" element2="libs/baidumapapi_radar_v3_6_1.jar" element3="libs/baidumapapi_map_v3_6_1.jar" element4="libs/baidumapapi_search_v3_6_1.jar" element5="libs/baidumapapi_util_v3_6_1.jar" element6="libs/baidumapapi_cloud_v3_6_1.jar" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="6" stamp="1452497054768" subPackages="false" version="1.0"/>
+</session>

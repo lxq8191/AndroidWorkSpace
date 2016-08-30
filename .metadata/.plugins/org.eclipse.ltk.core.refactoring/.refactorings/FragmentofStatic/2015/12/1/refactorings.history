@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Change Layout" description="Change Layout" file="/FragmentofStatic/res/layout/activity_main.xml" flags="6" flatten="true" id="com.android.ide.eclipse.adt.refactoring.convert" proj="/FragmentofStatic" sel-end="336" sel-start="0" stamp="1451272168221" type="android.widget.LinearLayout"/>
+</session>

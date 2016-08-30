@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical">
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical" >
+			    <Button
+			        android:id="@+id/my_demo_chapter_slide"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:text="@string/title_chapter_slide_menu" />
+			    <Button
+			        android:id="@+id/my_demo_navigate"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:text="@string/title_bottom_navigate_menu" />
+			</LinearLayout>
+			
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical" >
+			    <Button
+			        android:id="@+id/my_demo_explist_select"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:text="@string/title_expand_list_select" />
+			    <Button
+			        android:id="@+id/my_demo_double_frg_list"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:text="@string/title_double_frg_list" />
+			</LinearLayout>
+			
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical" >
+			    <Button
+			        android:id="@+id/my_demo_title_bar_animator"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:text="@string/title_title_bar_animator" />
+			    <Button
+			        android:id="@+id/my_demo_listitem_child_click"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			        android:text="@string/title_listitem_child_click" />
+			</LinearLayout>
+			
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical" >
+			    <Button
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:visibility="gone"
+			        android:layout_weight="1"
+			        android:text="@string/title_listitem_child_click"
+			        android:onClick="@null" />
+			    <Button
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:visibility="gone"
+			        android:layout_weight="1"
+			        android:text="@string/title_listitem_child_click"
+			        android:onClick="@null" />
+			</LinearLayout>
+		</LinearLayout>
+</ScrollView>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!-- <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true" 
+        android:layout_marginBottom="30dp"
+        /> -->
+    
+    
+    <Button 
+        android:id="@+id/btn_search"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="查询"
+        />
+    
+    <Button
+         android:id="@+id/request"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginRight="10dp"
+         android:layout_marginTop="10dip"
+         android:background="@drawable/custom_loc"  />
+    
+
+</RelativeLayout>
